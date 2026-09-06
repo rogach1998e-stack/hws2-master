@@ -26,10 +26,17 @@
     border-radius: 10px 10px 10px 0;
     max-width: 300px;
     border: 1px solid #e1e8ed;
+	position: relative;
 }
 
 .friendText:after {
-
+	content: '';
+    position: absolute;
+    bottom: -1px;
+    left: -8px;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: transparent #f5f7fb transparent transparent;
 }
 
 .friendName {

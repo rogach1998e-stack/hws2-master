@@ -20,7 +20,7 @@ const Message = (props: MessagePropsType) => {
                     <div id={'hw1-name-0'} className={s.name}>
                         {props.message.user.name}
                     </div>
-                    <pre id={'hw1-text-0'} className={s.textText}>
+                    <pre id={'hw1-text-0'} className={s.messageText}>
                         {props.message.message.text}
                     </pre>
                 </div>
